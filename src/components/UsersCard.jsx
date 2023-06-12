@@ -6,8 +6,6 @@ const UsersCard = ({
     deleteUserById,
     setUpdateInf,
     setIsCloseForm,
-    setModal,
-    modal,
 }) => {
     const [animation, setAnimation] = useState(false);
     const handleEdit = () => {
@@ -16,16 +14,13 @@ const UsersCard = ({
     };
 
     const handleDeleteUser = () => {
-        setModal(true);
-        if (modal) {
             setAnimation(true);
             setTimeout(() => {
                 setAnimation(false);
             }, 700);
             deleteUserById("/users", user.id);
-            setModal(false);
         }
-    };
+
 
     return (
         <article className={`card__content ${animation && "card__animation"}`}>

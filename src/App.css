@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 94vh;
     margin: 0 auto;
 }
 .header {
@@ -12,6 +12,7 @@
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    user-select: none;
 }
 .header__subtitulo {
     font-size: 0.8rem;

@@ -1,0 +1,54 @@
+:root {
+	--primary-100:#BC6C25;
+    --primary-200:#f39b52;
+    --sombrasBtn:#d6995346;
+    --primary-300:#ffffb2;
+    --accent-100:#DDA15E;
+    --accent-200:#754702;
+    --text-100:#768b4e;
+    --text-200:#8e9a63;
+    --hoverBtn:#a8b677;
+    --hoverBtnSombra:#a8b6777e;
+    --text-300:#a9c73b;
+    --bg-100:#FEFAE0;
+    --bg-200:#f5f1d6;
+    --bg-300:#cbc7ae;
+	--btn_background:linear-gradient(198deg, rgb(238, 150, 19) 21%, rgb(247, 141, 54) 100%);
+}
+
+
+.footer__personal {
+    background-color: var(--hoverBtn);
+    color: var(--bg-100);
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--text-300) 0px 28px 50px -10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.footer__inf {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-around;
+}
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon {
+    font-size: 1.5rem;
+}
+.footer__contact a {
+    color: var(--bg-100);
+}
+.footer__contact {
+    display: flex;
+    gap: 1em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}

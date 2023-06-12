@@ -6,7 +6,6 @@
     width: 100%;
     max-width: 400px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    cursor: pointer;
     transition: transform 300ms ease-in-out;
 }
 .card__content:hover {
@@ -45,6 +44,7 @@
     border-radius: 0.2em;
     cursor: pointer;
     transition: transform 300ms ease;
+    user-select: none;
 }
 .btn:hover {
   transform: scale(1.1);
