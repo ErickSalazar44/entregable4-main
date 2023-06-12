@@ -3,15 +3,17 @@
     min-height: 94vh;
     margin: 0 auto;
 }
+
 .header {
     background-color: var(--bg-200);
+    background-color: #f7f5e3;
     padding: 2em 1.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(146, 123, 81, 0.2) 0px 8px 24px;
     user-select: none;
 }
 .header__subtitulo {
@@ -70,7 +72,10 @@
         place-items: center;
     }
     .header {
-        padding: 2em 5.5em;
+        padding: 1.2em 5.5em;
+    }
+    .header__titulo {
+        font-size: 1.8rem;
     }
     .header__btn {
         width: 150px;

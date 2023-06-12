@@ -1,5 +1,6 @@
 .card__content {
     background-color: var(--bg-200);
+    background-color: var(--Fondo) ;
     color: var(--text-200);
     padding: 1.5em 1.5em 1em;
     border-radius: 1em;
